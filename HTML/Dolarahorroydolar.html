@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones - Economía Argentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-image: url(imagenes\ de\ uala/fondo\ dolar.avif);
+            background-color: rgb(255, 255, 255);
+        }
+
+        footer {
+            background-color: rgb(0, 43, 22);
+        }
+        header {
+            background-color: #ffffff;
+            color: rgb(255, 255, 255);
+            border: 2px solid #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #b0ae98;
+            padding: 5px;
+        }
+        nav ul {
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            font-size: 18px;
+            display: inline;
+            margin-right: 20px;
+            padding: 10px;
+        }
+
+        .titulo-colorido {
+            background-image: linear-gradient(to right, rgb(234, 0, 251), rgb(68, 68, 196), rgb(129, 20, 80), rgb(39, 29, 76), rgb(114, 8, 189), violet);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h1 {
+            font-size: 48px;
+            /* Letra muy grande */
+            text-align: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h2 {
+            font-size: 70px;
+            /* Letra grande */
+            text-align: center;
+            /* Alineado a la izquierda */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h3 {
+            font-size: 32px;
+            /*Letra mediana*/
+            text-align: left;
+            /* Alineado a la derecha */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        p {
+            font-size: 18px;
+            /* Letra mediana */
+            text-align: left;
+            /* Alineado a la izquierda */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .titulo-especial {
+            font-family: "Optima", sans-serif;
+            font-size: 25px;
+        }
+
+
+        img {
+            width: 350px;
+            height: auto;
+            float: right;
+            margin-left: 20px;
+            border: 2px solid #612e97;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .title {
+            background: linear-gradient(to right, rgb(1, 70, 1), #aecb9d, #6a974f, RGB(141 173 130), rgb(2, 46, 2));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .movimiento-imagen {
+            transition: transform 0.3s;
+        }
+        .movimiento-imagen:hover {
+            transform: translate(10px, 10px);
+        }
+        .container {
+            text-align: left;
+        }
+        .image {
+            height: auto;
+            float: left;
+            max-width: 400px;
+            transition: transform 0.3s;
+            margin-left: 10px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .degradado-titulo {
+            background: linear-gradient(to right, rgb(84, 83, 83), rgb(102, 183, 124), rgb(27, 130, 27),rgb(0, 120, 60), #2f5d04, gray);
+            -webkit-background-clip: text;
+            text-align: center;
+            color: transparent;
+            font-size: 50px;
+        }
+
+        table {
+            width: 500%;
+            border-collapse: collapse;
+            max-width: 1300px;
+            margin: auto;
+            padding: 12px;
+        }
+
+        th,
+        td {
+            font-size: 20px;
+            text-align: left;
+            border-bottom: 1px solid #ffffff;
+        }
+
+        th {
+            background-color: #d4ac3e;
+            text-align: center;
+        }
+
+        td {
+            background-color: #b29d78;
+        }
+
+        .Dolar-ahorro {
+            background-color: #ffffff;
+        }
+
+        .Dolar-MEP {
+            background-color: #ffffff;
+        }
+
+        .rojo-negrita {
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>DOLAR AHORRO Y DOLAR MEP</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Dolarahorroydolar.html"></a>Dolar</li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="bitso.html">Bitcoins</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Plazo Fijo.html">Plazo Fijo</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Masinformacion.html">Más Información</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h2 class="titulo-colorido"> UALA </h2> <img class="movimiento-imagen" src="imagenes de uala/logo uala.png"
+        alt="Imagen interactiva" style="max-width: 100px; height: auto; float: height; margin-left: 20px;">
+        <h3 class="titulo-especial"> Historia de la empresa</h3>
+        <p> Ualá es una compañía de tecnología que ofrece un ecosistema de soluciones financieras para mejorar la vida
+            de los latinoamericanos. Fue fundada por Pierpaolo Barbieri y lanzada en Argentina en octubre de 2017 con el
+            objetivo de impulsar la inclusión financiera en América Latina.</p>
+        <img class="movimiento-imagen" src="imagenes de uala/uala.webp" alt="Imagen interactiva" style="max-width: 250px; height: auto; float: left; margin-left: 20px;">
+        <p>Con un equipo de 20 personas Ualá se presentó en sociedad oficialmente el 4 de octubre de 2017. El día del
+            lanzamiento, señala, recibieron más de 1.500 solicitudes para darse de alta en la app, lo que Barbieri
+            cataloga como el corazón de la empresa. </p>
+        <p>Ualá nace gracias a las ideas del emprendedor argentino Pierpaolo Barbieri, el objetivo de Barbieri era
+            hacer que la inclusión financiera sea una realidad. </p>
+        <P> Este es un fondo que invierte en una variedad de activos financieros, como bonos y acciones, en nombre de
+            los inversores. Ofrece diversificación y puede generar rendimientos, pero también conlleva riesgos.</P>
+        <div class="container">
+            <h3 class="titulo-especial"> Beneficios de UALA </h3> <img class="movimiento-imagen"
+                src="imagenes de uala/beneficios de uala.jpg" alt="Imagen interactiva"
+                style="max-width: 200px; height: auto; float: height; margin-left: 10px;">
+            <p> 30% de reintegro en tus compras con QR. 25% de descuento programando la entrega o el retiro por sucursal
+                los
+                días Lunes. 30% de descuento en tus próximos 3 viajes. 50% de descuento en las compras de pases
+                mensuales en
+                Ecobici y mucho más. </p>
+            <h3 class="titulo-especial"> Peligros de UALA </h3>
+            <P> En general, Uala se encuentra inscripto en el “Registro de Proveedores de Servicios de Pago que ofrecen
+                cuentas de pago” . Por lo que es un servicio confiable, regulado por la Unidad de Información Financiera
+                (UIF). </P>
+            <p> Por otro lado, Ualá está regulada por el Banco Central de la República Argentina para brindar servicios
+                de
+                pago y no está autorizada para operar como una entidad financiera. </P>
+        </div>
+        <h2 class="title">DOLAR MEP</h2>
+        <img class="image" src="imagenes de uala/dolar mep.webp" alt="dolar">
+        <P> El "dólar Mep" es una abreviatura de "dólar Mercado Electrónico de Pagos" y se refiere a una modalidad de
+            compra de divisas en Argentina. Es un tipo de cambio que se utiliza para operaciones financieras y
+            comerciales en el país.</P>
+        <p>El dólar Mep se obtiene a través de la compra de bonos en pesos argentinos y su posterior venta en dólares
+            estadounidenses en el mercado financiero. Este mecanismo se utiliza a menudo como una alternativa al dólar
+            oficial o al dólar blue en Argentina. El dólar Mep suele tener un valor intermedio entre el dólar oficial y
+            el dólar blue, lo que lo hace atractivo para algunos inversores y empresas que necesitan acceder a divisas
+            extranjeras. </p>
+        <p> Es importante destacar que la regulación de las operaciones con dólar Mep puede cambiar con el tiempo debido
+            a las políticas económicas y monetarias del gobierno argentino, por lo que es recomendable consultar con
+            fuentes actualizadas para obtener información específica sobre su funcionamiento en el momento actual.</p>
+
+        <h3 class="titulo-especial">¿Necesito tener una cuenta bancaria en dólares? ¿Por qué? </h3>
+        <P> Si, según la Comunicación "A" 7340, el BCRA (Banco Central de la República Argentina) indica que los dólares
+            obtenidos mediante la operatoria Dólar MEP deben ser transferidos hacia una cuenta bancaria a nombre de
+            quien está operando </P>
+    </div>
+
+    <h1 class="degradado-titulo">Dolar Oficial</h1>
+    <div class="subtitulo">
+        <img class="movimiento-imagen"
+                src="imagenes de uala/dolar oficial.webp" alt="Imagen interactiva"
+                style="max-width: 300px; height: auto; float: height; margin-left: 20px;">
+        <h3>¿Qué es y para qué sirve?</h3>
+        <p> El "dólar oficial" se refiere a la tasa de cambio oficial o tipo de cambio que es establecido por el
+            gobierno de un país. Por lo general, se utiliza para transacciones gubernamentales, comercio internacional y otras
+            operaciones financieras que involucran al gobierno.</p>
+        <p>El propósito principal del dólar oficial es controlar la estabilidad económica y financiera del país. El
+            gobierno puede intervenir en el mercado de divisas para mantener un control sobre la tasa de cambio oficial, a menudo
+            para evitar la volatilidad y mantener una moneda local más estable. Esto puede ser importante para fomentar la
+            inversión extranjera, estabilizar los precios de importación y exportación, y mantener la confianza en la economía
+            nacional. </p>
+        <p>Es importante destacar que en algunos países, como Argentina, existen múltiples tipos de cambio, incluido el
+            dólar oficial y el dólar paralelo o "blue". El dólar oficial generalmente tiene un valor más bajo que el dólar
+            paralelo, y esta diferencia puede generar discrepancias en la economía y el mercado negro de divisas. </p>
+        <P> En resumen, el dólar oficial es una tasa de cambio establecida por el gobierno que se utiliza para
+            transacciones gubernamentales y para mantener la estabilidad económica y financiera del país.</P>
+
+    </div>
+    <h1 class="degradado-titulo">Dolar Ahorro</h1> <img class="movimiento-imagen" src="imagenes de uala/dolar oficial.webp" alt="Imagen interactiva"
+    style="max-width: 300px; height: auto; float: height; margin-left: 20px;">
+    <div class="subtitulo">
+        <h3>¿Qué es y para qué sirve?</h3>
+        <p>El dólar ahorro o dólar solidario-que incluye el 30% del impuesto PAÍS y el 35% deducible del Impuesto a las
+            Ganancias y de Bienes Personales- es el dólar más barato del mercado. El dólar ahorro se puede conseguir
+            fácilmente a través del Home Banking o a través de las sucursales. </p>
+        <h3>Entonces, qué es: ¿Dolar Ahorro? y ¿Dolar Oficial?</h3>  
+        <p>El dólar solidario es el dólar oficial más el impuesto del 30%.</p>
+        <p> Mientras que el dólar ahorro es el dólar oficial más el impuesto del 30% y del 35%.</p>    
+    </div>
+
+    <h2>Dólar ahorro vs Dólar MEP</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>Dolar-Ahorro</th>
+            <th>Dolar-MEP</th>
+        </tr>
+        <tr>
+            <td>Beneficios</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li> El Dólar ahorro es s el valor que surge de una operación de cambio, donde al tipo de cambio
+                        oficial se le suma un
+                        30% del Impuesto Pais y un 35% de retención de ganancias.</li>
+                    <li> Límite: Su compra se encuentra limitada, por regulación del BCRA, en USD 200 por mes y por
+                        persona.</li>
+                    <li> No es necesario tener una caja de ahorro en dólares para comprar los mismos.</li>
+                </ul>
+                <p><span class="rojo-negrita">*Recordá que entre la compra del Dólar ahorro y de Dólar MEP tienen que
+                        haber pasado 90 días corridos*</span></p>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li> La operatoria de Dólar MEP corresponde a operaciones que no implican el acceso al mercado de
+                        cambios (regulado por el BCRA) sino a operaciones realizadas en el mercado de capitales.</li>
+                    <li> La operatoria de Dólar MEP se encuentra libre de Impuesto País y de retención de ganancias.
+                    </li>
+                    <li> Según la Comunicación "A" 7340, el BCRA (Banco Central de la República Argentina) indica que
+                        los
+                        dólares obtenidos mediante la operatoria Dólar MEP deben ser transferidos hacia una cuenta
+                        bancaria a nombre de
+                        quien está operando</li>
+                    <li> En principio, es una forma de adquirir divisa extranjera de forma legal y permite hacerse de
+                        los dólares rápidamente en la cuenta bancaria sin necesidad de moverte de tu casa, a diferencia
+                        del dólar ilegal o "blue".</li>
+                </ul>
+                <p><span class="rojo-negrita">*Recordá que entre la compra del Dólar ahorro y de Dólar MEP tienen que
+                        haber pasado 90 días corridos*</span></p>
+            </td>
+        </tr>
+        <tr>
+            <td>PELIGROS</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li> El principal peligro del dólar ahorro en Argentina es que puede generar una mayor demanda de
+                        dólares en el
+                        mercado cambiario, lo que puede aumentar su cotización y afectar negativamente la economía del
+                        país..</li>
+                </ul>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li> El principal peligro del dólar MEP en Argentina es la posibilidad de que se produzca una
+                        devaluación de la
+                        moneda local. El dólar MEP es una forma de comprar dólares en el mercado financiero local a un
+                        tipo de
+                        cambio más favorable que el oficial, pero esta brecha puede generar presiones sobre el valor del
+                        peso
+                        argentino y llevar a una depreciación de la moneda. Además, existe el riesgo de que el gobierno
+                        tome medidas
+                        para limitar o controlar la operatoria del dólar MEP, lo cual podría dificultar su acceso.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>SEGURIDAD</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li>Invertir en dólar ahorro en Argentina es seguro, ya que se trata de una moneda fuerte y estable.
+                        Sin
+                        embargo, es importante tener en cuenta los riesgos asociados a la economía del país y a los
+                        cambios en las
+                        políticas gubernamentales.</li>
+                </ul>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li> La inversión en dólar MEP en Argentina es una opción segura siempre y cuando se realice de
+                        manera legal y
+                        con precaución. Es importante tener en cuenta la normativa vigente y evitar caer en estafas o
+                        actividades
+                        ilegales.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>IMPUESTOS</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li>30% por el impuesto PAIS y 45% a cuenta del impuesto a las Ganancias</li>
+                </ul>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li><strong> NO</strong> se debe pagar el impuesto país del 30% ni retenciones del 35%.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>LIMITACIONES</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li>Tienen un límite mensual de US$ 200, con un recargo del 75% sobre el valor oficial de la divisa.
+                    </li>
+                </ul>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li>En un nuevo capítulo del cepo al dólar, el Gobierno anunció un tope a las operaciones del
+                        mercado, para que
+                        no superen los u$s40. 000 semanales en la compra de dólar MEP.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>¿Dónde se compra?</td>
+            <td class="Dolar-ahorro">
+                <ul>
+                    <li>En cualquier Banco de Argentina</li>
+                </ul>
+            </td>
+            <td class="Dolar-MEP">
+                <ul>
+                    <li>En aplicaciones como es por ejemplo: UALÁ o Cocos Capital (hay muchas más pero, esas son las más
+                        conocidad)</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
