@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversiones - Economía Argentina</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url(imagenes\ del\ plazo\ fijo/fondo\ de\ pesos.jpg);
+            background-color: rgb(255, 255, 255);
+        }
+
+        footer {
+            background-color: rgb(255, 255, 255);
+        }
+
+        header {
+            background-color: #fdfdfd;
+            color: rgb(107, 107, 107);
+            border: 2px solid #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #edcf9d;
+            padding: 5px;
+        }
+
+        nav ul {
+            font-size: 18px;
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            font-size: 18px;
+            display: inline;
+            margin-right: 20px;
+            padding: 10px;
+        }
+
+
+        h1 {
+            font-size: 48px;
+            /* Letra muy grande */
+            text-align: center;
+            /* Alineado centrado */
+        }
+
+        h2 {
+            font-size: 36px;
+            /* Letra grande */
+            text-align: center;
+            /* Alineado centrado */
+        }
+
+        h3 {
+            font-size: 32px;
+            /*Letra mediana*/
+            text-align: left;
+            /* Alineado a la derecha */
+        }
+
+        p {
+            font-size: 18px;
+            /* Letra mediana */
+            text-align: left;
+            /* Alineado a la derecha */
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 200px;
+            height: auto;
+            float: right;
+            margin-left: 20px;
+        }
+
+        .image {
+            height: auto;
+            float: right;
+            max-width: 300px;
+            transition: transform 0.3s;
+            margin-left: 10px;
+        }
+
+        .image:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .subtitulo {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .subtitulo img {
+            width: 200px;
+            height: auto;
+            margin-right: 30px;
+        }
+
+
+        .resumen {
+            display: flex;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        .resumen img {
+            width: 150px;
+            height: auto;
+            margin-right: 30px;
+        }
+
+        #colorful-title {
+            background-image: linear-gradient(to right, RGB(173, 216, 230), RGB(135, 206, 250), RGB(0, 0, 255), RGB(0, 0, 128), RGB(64, 224, 208), RGB(138, 43, 226), gray);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 50px;
+            text-align: center;
+        }
+
+        .titulo-con-degradado {
+            position: relative;
+            background: linear-gradient(to right, #030032, #ffffff, #003954, #1800b1, #0000ff, #696969, #5280ff);
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 36px;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .degradado-titulo {
+            background: linear-gradient(to right, rgb(2, 196, 255), rgb(0, 0, 54), rgb(3, 110, 220), #230b68, gray);
+            -webkit-background-clip: text;
+            text-align: center;
+            color: transparent;
+            font-size: 50px;
+        }
+
+
+
+        table {
+            width: 500%;
+            border-collapse: collapse;
+            max-width: 1300px;
+            margin: auto;
+            padding: 12px;
+        }
+
+        th,
+        td {
+            font-size: 14px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #45d3f3;
+            text-align: center;
+        }
+
+        td {
+            background-color: #38daff;
+        }
+
+        .banco-publico {
+            background-color: #ffffff;
+        }
+
+        .banco-privado {
+            background-color: #ffffff;
+        }
+
+        .mercado-pago {
+            background-color: #ffffff;
+        }
+
+        .rojo-negrita {
+            font-size: 14px;
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>PLAZO FIJO</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Dolarahorroydolar.html">Dolar</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="bitso.html">Bitcoins</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Plazo Fijo.html">Plazo Fijo</a></li> <!-- Enlace a la página de ¿Dónde Invertir? -->
+            <li><a href="Masinformacion.html">Más Información</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2 id="colorful-title">BANCO DE LA NACIÓN ARGENTINA</h2>
+        <img src="imagenes del plazo fijo/banco nacion.png" alt="Banco Nación Logo">
+        <h3> Historia del BNA</h3>
+        <p> El Banco de la Nación Argentina fue fundado en 1891 por iniciativa del Presidente Carlos Pellegrini, como un
+            medio para resolver los embates de una devastadora crisis económica que afectaba, en especial, al sistema
+            bancario existente en ese momento. </p> <img class="image"
+            src="imagenes del plazo fijo/Inaguración del BNA.jpg" alt="antiguo">
+        <p> De capital enteramente estatal, en pocos años abarcó en su giro a toda la geografía nacional y se convirtió
+            en el mayor banco comercial argentino.</p>
+        <p> Desde entonces, participó activamente en los principales acontecimientos de la vida económica del país.
+            Tuvo una actitud descollante en la asistencia al sector rural, a tal punto que contribuyó decisivamente a
+            que la República Argentina se convirtiera en una potencia mundial en el segmento de los agronegocios.
+            Es su prioridad la atención a las Pequeñas y Medianas Empresas, como así también asistir a las economías
+            regionales y a toda su gente, inclusive en las localidades alejadas de los grandes centros y de menor
+            relevancia económica.</p>
+        <p> El BNA ofrece diferentes tipos de inversiones, entre las más reconocidas se encuentran el Fondo Común de
+            Inversión, Bonos, Acciones y Plazo Fijo.</p>
+    </div>
+
+    <div class="container">
+        <h2 class="degradado-titulo"> BANCO BBVA </h2> <img src="imagenes del plazo fijo/logo bbva.png"
+            alt="Banco BBVA Logo">
+    </div>
+    <div class="container">
+        <h3> Historia del BBVA</h3>
+        <p>La historia de BBVA comienza en 1857 en Bilbao, ciudad situada en el norte de España, cuando la Junta de
+            Comercio promueve la creación de Banco de Bilbao como banco de emisión y descuento. Se trató de una
+            iniciativa pionera, impulsada por un contexto de crecimiento económico de la región. Hasta la última década
+            del siglo xix, la entidad actuó casi en solitario en la plaza. </p> <img class="image"
+            src="imagenes del plazo fijo/Inaguración del BBVA.jpg" alt="antiguo">
+        <p> En 1888 comenzaron a cotizar en la Bolsa de Comercio de Buenos Aires las acciones del Banco Francés, que aún
+            están en el mercado. En <strong>1926</strong> fue inaugurada la nueva casa matriz de la entidad, en la
+            esquina de las calles Bartolomé Mitre y Reconquista, plena ciudad financiera de Buenos Aires. </p>
+        <p> BBVA ha logrado ofrecer a sus clientes no sólo los productos clásicos como <strong>cuentas de depósito con o
+                sin chequera y tarjetas de crédito/débito, también productos y servicios como nómina electrónica,
+                seguros, domiciliación y servicios por internet.</strong> </p>
+        <p> BBVA Banco Francés, una unidad del grupo español BBVA, es la segunda mayor entidad financiera del sector
+            privado argentino. El banco entrega una gama de productos y servicios financieros y no financieros a
+            clientes institucionales y corporativos. </p>
+        <p> El BBVA ofrece diferentes tipos de inversiones, entre las más reconocidas se encuentran el Fondo Común de
+            Inversión, Bonos, Acciones y Plazo Fijo.</p>
+    </div>
+
+    <div class="container">
+        <h2><strong> Plazo Fijo</strong></h2> <img src="imagenes del plazo fijo/plazo fijo.png" alt="plazo">
+        <h3> ¿Qué es?</h3>
+        <p>En principio hay que decir que un plazo fijo es un tipo de inversión en la que se deposita dinero en el banco
+            durante un período de tiempo determinado. Al finalizar ese período, la persona recibe una retribución en
+            concepto de tasa de interés, vinculada con el tiempo que su dinero permaneció depositado.</p>
+        <p>Actualmente el plazo fijo tradicional se posiciona como el más conveniente en Argentina. Esto se debe a que
+            ofrece una tasa de interés nominal arriba de los 78% y, en el caso de renovar el capital con los intereses
+            cada
+            30 días durante 12 meses, obtendrán una tasa por arriba del 113,2% anual.</p>
+        <p> En la actualidad (11/9/2023), la tasa de interés está por debajo del Índice de Precios al Consumidor,
+            esdecir, los interes no superan la inflacion, por lo cual, lo recomendable sería comprar dólares.</p>
+        <P> Pero, si surgiera que la tasa de interes es por encima de la inflacion uno podria decir:<q> “Por el
+                contrario, si la tasa de interés es mayor a la inflación, se podría optar por invertir en un plazo
+                fijo”.</q>
+            Sin embargo, hay que recordar que nadie va a querer perder dinero, ni menos los bancos, por ese mismo
+            motivo, es muy poco probable que suceda. Pero, si a usted le interesa poner un plazo fijo. En lo siguiente
+            vamos a estar comparando en qué lugar o en dónde es recomendable poner un plazo fijo.</P>
+    </div>
+
+    <h1 class="degradado-titulo">MERCADO PAGO</h1>
+    <div class="subtitulo">
+        <img src="imagenes del plazo fijo/mercado pago.webp" alt="Imagen de la empresa"
+            style="max-width: 300px; height: auto; float: height; margin-left: 5px;">
+        <h3>La historia de la empresa</h3>
+        <p> Mercado pago, en la Argentina se empezó a utilizaren el año 2018. El mismo se fundo con el objetivo para
+            solucionar los cobros digitales para que los vendedores y compradores de Mercado Libre evitaran peligros del
+            efectivo, y fue agregando funcionalidades hasta sumar toda la oferta de una Fintech.
+            Por ese mismo motivo, "Mercado Pago nació porque necesitaba una solución de pagos online, simple, segura y
+            eficiente, para robustecer la plataforma de comercio electrónico".
+            En la actualidad, es la red de pagos y cobros online más importante de la región, ya que, es la mayor
+            plataforma online más utilizada.Por otro lado, la herramienta te permite cobrar por diferentes canales:</p>
+        <ol>
+            <li><strong>Link de Pago (Redes Sociales y WhatsApp).</strong> </li>
+            <li><strong>QR.</strong></li>
+            <li><strong>Point (de manera presencial).</strong> </li>
+            <li><strong>Checkout de Mercado Pago en tu tienda online.</strong></li>
+            <li><strong>La ganancia de mercado pago.</strong></li>
+        </ol>
+    </div>
+
+    <div class="subtitulo">
+        <img src="imagenes del plazo fijo/fondo de pesos.jpg" alt="Imagen de la empresa"
+            style="max-width: 200px; height: auto; float: left; margin-left: 20px;">
+        <h3> ¿Cuánto gano por día si invierto $ 50.000?</h3>
+        <p> Si invertís $ 50.000 en Mercado Pago, vas a tener la posibilidad de generar rendimientos diarios. La Tasa
+            Nominal Anual (TNA) es de 88,2%, que equivale a un 7,35% mensual. De esta manera, el rendimiento diario
+            equivale
+            a $ 122,50.
+            En el caso de invertir el dinero durante un mes, la ganancia asciende a $3675.</p>
+    </div>
+
+
+
+    <h2> ¿Cuál combiene más? </h2>
+    <table>
+        <tr>
+            <th></th>
+            <th>Banco Nación de la Argentina (público)</th>
+            <th>Banco BBVA (privado)</th>
+            <th>Mercado Pago</th>
+        </tr>
+        <tr>
+            <td>Beneficios</td>
+            <td class="banco-publico">
+                <ol>
+                    <li><strong>Préstamos a tasas preferenciales:</strong> El Banco Nación suele ofrecer préstamos
+                        personales y para vivienda a tasas de interés más bajas en comparación con otros bancos.</li>
+                    <li><strong>Programa de beneficios para jubilados y pensionados: </strong> El banco ofrece servicios
+                        especiales y préstamos
+                        destinados a jubilados y pensionados, con condiciones favorables.</li>
+                    <li><strong>Cuentas y tarjetas sin costos adicionales:</strong> Muchas de las cuentas bancarias y
+                        tarjetas de crédito del
+                        Banco Nación no tienen cargos adicionales por mantenimiento, lo que puede resultar en ahorros
+                        significativos.</li>
+                    <li><strong>Descuentos y promociones:</strong>Los clientes del Banco Nación pueden disfrutar de
+                        descuentos y promociones en
+                        una amplia variedad de comercios y servicios, incluyendo viajes, supermercados y más.</li>
+                    <li><strong>Acceso a servicios financieros variados:</strong> El Banco Nación ofrece una gama
+                        completa de servicios
+                        financieros, que incluyen cuentas corrientes, plazos fijos, cajas de ahorro, servicios de banca
+                        en línea
+                        y más.</li>
+                    <li><strong>Apoyo a la agricultura y la producción:</strong> El banco desempeña un papel importante
+                        en el apoyo a la
+                        agricultura y la producción en Argentina, ofreciendo líneas de crédito especiales y
+                        financiamiento a
+                        tasas preferenciales para el sector agropecuario.</li>
+                    <li><strong>Red de sucursales y cajeros automáticos:</strong> El Banco Nación tiene una amplia red
+                        de sucursales y cajeros
+                        automáticos en todo el país, lo que facilita el acceso a servicios bancarios para los
+                        argentinos.</li>
+                    <li><strong>Programas sociales y de inclusión financiera:</strong>El banco participa en programas
+                        sociales y de inclusión
+                        financiera, brindando servicios y productos bancarios a sectores menos favorecidos de la
+                        población.</li>
+                </ol>
+            </td>
+            <td class="banco-privado">
+                <ul>
+                    <li>No hay comisión por manejo de cuenta y no requiere mantener un saldo mínimo.</li>
+                    <li>Tienes un cajero casi en cada esquina para que tengas tu dinero siempre a la mano.</li>
+                    <li>Un app práctica y fácil de usar para manejar tu dinero.</li>
+                    <li>Obtienes créditos con un clic.</li>
+                    <li>La función de apartados en tu app para separar tu dinero.</li>
+                    <li>Compras seguras en internet con tu tarjeta digital.</li>
+                    <li>Si tienes créditos o tarjeta de crédito con BBVA los podrás seguir administrando fácilmente con
+                        la app.</li>
+                </ul>
+            </td>
+            <td class="mercado-pago">
+                <ol>
+                    <li><strong>Tené tu cuenta gratuita</strong> Tener una cuenta en Mercado Pago es totalmente gratis!
+                        A
+                        diferencia de los bancos tradicionales, no tiene costos
+                        de mantenimiento </li>
+                    <li><strong>Pagá en cuotas sin tarjeta de crédito</strong> Desde la cuenta de Mercado Pago podés
+                        tener
+                        acceso a Mercado Crédito y dividir tus gastos en cuotas sin tarjeta
+                        de crédito. Con Mercado Crédito también podés: </li>
+                </ol>
+                <ul>
+                    <li>Recargar tu celular.</li>
+                    <li>Recargar tu SUBE.</li>
+                    <li>Pagar con QR en tiendas físicas.</li>
+                    <li>Comprar en cuotas en Mercado Libre y sitios web con Mercado Pago o Link de Pago.</li>
+                </ul>
+                <ol>
+                    <li><strong>Aprovechá el préstamo personal</strong> Si necesitás dinero podemos ayudarte. En tu
+                        cuenta de
+                        Mercado Pago tenés un límite para solicitar un préstamo
+                        personal. Permite recibir el dinero instantáneamente en tu cuenta y podés usarlo como prefieras:
+                        para
+                        adquirir stock, invertir en mejoras en
+                        tu negocio o aumentar personal, entre otras alternativas. </li>
+                    <li><strong>Usá el código QR para las ventas presenciales</strong> El QR es un sistema de cobro muy
+                        práctico
+                        y conveniente porque tus clientes podrán pagarte por tus productos o
+                        servicios de una forma más rápida. Para obtenerlo, ingresá a tu cuenta de Mercado Pago y
+                        seleccioná
+                        Código QR como método de cobro. Estará asociado a tu cuenta para que puedas recibir
+                        todos tus pagos.</li>
+                    <li><strong>Utilizá Link de Pago para las ventas a distancia</strong> Vender por WhatsApp,
+                        Instagram,
+                        Facebook o cualquier otra red social siempre es una buena opción. Mercado Pago
+                        tiene la solución de Link de Pago que es perfecta para que cobres estando a distancia.
+                        iCómo crearlo? Desde tu cuenta de Mercado Pago ingresá a Link de Pago, luego asignale un título
+                        a tu
+                        producto o
+                        servicio, su precio, los medios de pago que querés ofrecer y una foto.
+                        Una vez creado compartilo con tus clientes y cobrá de forma fácil y sin complicaciones</li>
+                    <li><strong>Pagá tus facturas desde tu celular</strong> Podés pagar tus facturas y recibos
+                        directamente
+                        desde tu celular con la app de Mercado Pago sin tener que salir
+                        de tu casa o negocio.Para hacerlo solo tenés que escanear o ingresar el código de barras del
+                        recibo en
+                        la sección correspondiente de la app. Una
+                        vez hecho esto, la aplicación muestra la información de la cuenta y pide permiso para procesar
+                        el pago y
+                        listo.</li>
+                    <li><strong>Recargá el celular y la SUBE</strong>La aplicación Mercado Pago ofrece la comodidad que
+                        necesitás. Con pocos clics podés recargar crédito para tu
+                        celular y para tu SUBE sin tener que moverte de dónde estás.</li>
+                    <li><strong>Transferí sin costo adicional</strong> Con tu cuenta de Mercado Pago podrás realizar
+                        transferencias gratuitas e ilimitadas a tus cuentas propias de
+                        cualquier banco.
+                        También tenés la posibilidad de compartir gastos con amigos y enviar el dinero sin cargo a otras
+                        cuentas
+                        de
+                        Mercado Pago, utilizando tu dinero en la cuenta o tarjeta de débito. Si necestás tu dinero en
+                        efectivo,
+                        podés retirarlo sin costo en diferentes puntos
+                        de retiro.</li>
+                    <li><strong>Invertir tu dinero</strong> En Mercado Pago te ofrecemos una alternativa de inversión
+                        que te
+                        permite obtener rendimientos diarios, tanto
+                        para tu empresa como para tu cuenta personal. Las inversión con Mercado Pago están avaladas y
+                        reguladas
+                        por la Comisión Nacional
+                        de Valores (CNV)y administrada por compañfas del grupo BIND. Es diferente a un plazo fijo, por
+                        lo que
+                        podés usar el dinero cuando
+                        y como quieras. Podés generar ingresos extra desde la app de manera 100 online, sin tener que
+                        hacer
+                        trámites. Además, desde esta app podés
+                        seguir la evolución de tus rendimientos y a medida que pasen los días vern el detalle diario,
+                        mensual y
+                        anual.
+                        La gran ventaja es que no hay tiempo mínimo de permanencia. Entonces, si decidís dejar de
+                        aumentar el
+                        valor de
+                        tu dinero, no te cobramos nada y conservás lo que ganaste hasta el momento.</li>
+                    <li><strong>Descuentos imperdibles</strong> Este es un beneficio que te permite acumular puntos y
+                        aprovechar
+                        de diferentes descuentos.En base a los puntos
+                        acreditados, estarás clasificado en niveles y cada uno de ellos tiene distintos beneficios que
+                        se pueden
+                        usar de diversas maneras según tu
+                        conveniencia. No olvides que cuanto más productos adquieras para tu negocio a través de Mercado
+                        Libre,
+                        más puntos obtendrás.</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td>Plazo fijo</td>
+            <td class="banco-publico">
+                <ul>
+                    <li><strong> Tasa anual (TNA) </strong> 118% </li>
+                    <li><strong> Tasa mensual (TNM): </strong> 9,83% </li>
+                </ul>
+                <p><span class="rojo-negrita">Tiene más rentabilidad a mediano plazo, ya que, su TNA, es decir, su
+                        interés es más alto.</span></p>
+            </td>
+            <td class="banco-privado">
+                <ul>
+                    <li><strong> Tasa anual (TNA) </strong> 118%</li>
+                    <li><strong> Tasa mensual (TNM): </strong> 9,83%</li>
+                </ul>
+                <p><span class="rojo-negrita">Tiene más rentabilidad a mediano plazo, ya que, su TNA, es decir, su
+                        interés es más alto.</span></p>
+            </td>
+            <td class="mercado-pago">
+                <ul>
+                    <li><strong> Tasa anual (TNA):</strong> 88%</li>
+                    <li><strong> Tasa mensual (TNM):</strong> 7,33%</li>
+                </ul>
+            </td>
+        </tr>
+        <td>Ventajas</td>
+        <td class="banco-publico">
+            <ul>
+                <li><strong>Seguridad:</strong>Los plazos fijos en el BNA están respaldados por el
+                    gobierno argentino, lo que los hace una opción segura para invertir tu dinero.</li>
+                <li><strong>Rendimiento garantizado:</strong> Obtienes una tasa de interés fija durante el plazo que
+                    elijas, lo que te permite conocer de antemano cuánto ganarás.</li>
+                <li><strong>Flexibilidad en plazos:</strong> Puedes elegir entre diferentes plazos, desde corto
+                    plazo hasta más largo, según tus necesidades financieras.</li>
+                <li><strong>Liquidez: </strong> Aunque los plazos fijos suelen tener una fecha de vencimiento,
+                    también ofrecen la posibilidad de cancelarlos antes, aunque esto puede implicar una penalización
+                    en los interese</li>
+                <li><strong>Diversificación:</strong> Los plazos fijos son una forma de diversificar tus
+                    inversiones, junto con otras opciones como acciones o bonos.</li>
+                <li><strong>Accesibilidad:</strong> Abrir un plazo fijo en el BNA es relativamente fácil y está al
+                    alcance de la mayoría de los ciudadanos argentinos.</li>
+                <li><strong>Cobertura del seguro de depósitos:</strong>Tus depósitos en el Banco de la Nación
+                    Argentina están cubiertos por el seguro de depósitos del Banco Central de la República Argentina
+                    (BCRA) hasta cierto límite, lo que brinda una capa adicional de seguridad.</li>
+            </ul>
+        </td>
+        <td class="banco-privado">
+            <ul>
+                <li><strong>Seguridad:</strong>Los plazos fijos son una forma segura de invertir tu dinero, ya que
+                    están respaldados por el banco y cuentan con la garantía de hasta $6 millones por parte del
+                    Gobierno Nacional.</li>
+                <li><strong>Rentabilidad: </strong>Aunque las tasas de interés pueden variar, los plazos fijos
+                    suelen ofrecer tasas de interés más altas que las cuentas de ahorro tradicionales, lo que te
+                    permite obtener ganancias adicionales por tu dinero.</li>
+                <li><strong>Liquidez:</strong>Aunque el dinero en un plazo fijo
+                    generalmente debe mantenerse durante un período específico, aún tienes la opción de retirarlo
+                    antes del vencimiento, aunque esto puede implicar la pérdida de algunos intereses ganados.</li>
+                <li><strong>Diversificación:</strong>Los plazos fijos pueden formar parte de una estrategia de
+                    inversión diversificada, junto con otros productos financieros, para ayudarte a alcanzar tus
+                    objetivos financieros a largo plazo.</li>
+                <li><strong>Planificación financiera:</strong>Al conocer la tasa de interés y la fecha de
+                    vencimiento de tu plazo fijo, puedes planificar tus
+                    finanzas con mayor precisión y prever ingresos futuros.</li>
+            </ul>
+        </td>
+        <td class="mercado-pago">
+            <ul>
+                <li>La gran ventaja que tiene con respecto al plazo fijo es que con este método no tendrás el dinero
+                    bloqueado y
+                    podrás utilizarlo en el día a día.</li>
+                <li>Vas a recibir tus rendimientos diariamente y es muy fácil visualizarlo desde la aplicación.</li>
+                <li>Vas a poder obtener rendimientos con tu dinero el tiempo que desees, no hay un tiempo mínimo de
+                    permanencia,
+                    a diferencia del plazo fijo, donde lo tendrás congelado por al menos un mes.</li>
+                <li>Si invertís tu dinero en Mercado Fondo vas a tener acceso a múltiples beneficios. Es decir, cada
+                    vez que
+                    utilizas Mercado pago vas consiguiendo puntos, en donde vas subiendo de nivel y vas teniendo
+                    diferentes
+                    beneficios. Ejemplo: Disney, HBO, Star+, etc.</li>
+                <li>Con el Fondo Común de Inversión (FCI) de Mercado Pago podrás seguir usando tu plata siempre, ya
+                    sea para retirarla en efectivo o como billetera virtual.</li>
+            </ul>
+        </td>
+        </tr>
+        <tr>
+            <td>Desventajas</td>
+            <td class="banco-publico">
+                <ul>
+                    <li><strong>Baja rentabilidad:</strong>Los plazos fijos suelen ofrecer tasas de interés
+                        relativamente bajas en comparación con otras formas de inversión, lo que significa que tus
+                        ganancias pueden ser limitadas.</li>
+                    <li><strong>Inmovilización de fondos:</strong> Cuando colocas dinero en un plazo fijo,<strong>no
+                            puedes acceder a esos fondos hasta que el plazo </strong> convenido haya terminado. Esto
+                        puede ser una desventaja si necesitas liquidez inmediata.</li>
+                    <li><strong>Impuestos:</strong>En Argentina, los plazos fijos están sujetos a impuestos sobre los
+                        rendimientos, lo que puede reducir aún más tus ganancias..</li>
+                    <li><strong>Pérdida de poder adquisitivo:</strong> La inflación en Argentina ha sido
+                        históricamente alta, y las tasas de interés de los plazos fijos a menudo no superan la tasa de
+                        inflación, lo que significa que tu dinero podría perder valor con el tiempo.</li>
+                    <li><strong>Alternativas más atractivas:</strong>En un entorno económico en constante cambio, es
+                        posible que haya otras opciones de inversión que ofrezcan mejores rendimientos y menos
+                        restricciones que los plazos fijos.</li>
+                </ul>
+            </td>
+            <td class="banco-privado">
+                <ul>
+                    <li><strong>Tasa de interés fija:</strong>Una de las principales desventajas es que la tasa de
+                        interés en un plazo fijo suele ser fija, lo que significa que no se beneficiará de aumentos en
+                        las tasas de interés
+                        durante el plazo del depósito. Si las tasas de interés suben en el mercado, su dinero no se
+                        beneficiará de
+                        esos incrementos.</li>
+                    <li><strong>Falta de liquidez:</strong>Cuando colocas dinero en un plazo fijo, generalmente no
+                        puedes retirarlo antes de que
+                        expire el plazo acordado sin penalizaciones. Esto significa que tu dinero estará bloqueado
+                        durante un
+                        período de tiempo, lo que puede ser inconveniente si necesitas acceso a esos fondos de manera
+                        inmediata.</li>
+                    <li><strong>Impuestos sobre las ganancias:</strong> Los intereses ganados en un plazo fijo están
+                        sujetos a impuestos en
+                        Argentina. Dependiendo de tu situación fiscal, esto puede reducir significativamente tus
+                        ganancias
+                        netas.</li>
+                    <li><strong>Inflación:</strong>Si la tasa de inflación es alta, el rendimiento real de tu inversión
+                        en un plazo fijo puede
+                        ser negativo. Esto significa que, después de ajustar por la inflación, podrías perder poder
+                        adquisitivo.</li>
+                    <li><strong>Tasas de interés relativamente bajas:</strong> En un entorno de tasas de interés bajas,
+                        el rendimiento de los
+                        plazos fijos puede ser menos atractivo en comparación con otras opciones de inversión, como
+                        acciones o
+                        bonos.</li>
+                    <li><strong>Falta de flexibilidad:</strong>La mayoría de los plazos fijos tienen una duración
+                        predeterminada, por lo que no
+                        puedes ajustar el plazo de acuerdo a tus necesidades financieras cambiantes.</li>
+                </ul>
+            </td>
+            <td class="mercado-pago">
+                <ul>
+                    <li><strong>Bajas tasas de interés: </strong> En general, las tasas de interés ofrecidas en los
+                        plazos fijos de Mercado Pago suelen ser más bajas en comparación con otras opciones de
+                        inversión, lo que significa que es posible que no obtengas un rendimiento significativo en tu
+                        dinero.</li>
+                    <li><strong>Inflación:</strong>En Argentina, la inflación ha sido históricamente alta, y las tasas
+                        de interés de los
+                        plazos fijos a menudo no logran superarla. Esto significa que, en términos reales, tu dinero
+                        podría perder valor con el tiempo si no se invierte de manera adecuada.</li>
+                    <li><strong>Falta de liquidez</strong> Los plazos fijos suelen tener un período de inversión
+                        establecido durante el cual no puedes retirar tu dinero sin penalizaciones. Esto significa que
+                        tu dinero estará bloqueado por un tiempo determinado, lo que puede ser inconveniente si
+                        necesitas acceso inmediato a tus fondos.</li>
+                    <li><strong>Inflación:</strong>En Argentina, la inflación ha sido históricamente alta, y las tasas
+                        de interés de los
+                        plazos fijos a menudo no logran superarla. Esto significa que, en términos reales, tu dinero
+                        podría perder valor con el tiempo si no se invierte de manera adecuada.
+                    </li>
+                    <li><strong>Alternativas de inversión limitadas:</strong> Mercado Pago ofrece opciones de inversión
+                        limitadas en comparación con otros instrumentos financieros disponibles en el mercado. Puede ser
+                        beneficioso explorar otras alternativas de inversión que se adapten mejor a tus objetivos
+                        financieros.</li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>Gastos del banco</td>
+            <td class="banco-publico"> La caja de ahorro en pesos BNA <strong>no tiene costos de apertura o
+                    mantenimiento
+                    ni tampoco de extracciones,</strong> siempre que estas sean en cajeros BNA.</td>
+            <td class="banco-privado"> La caja de ahorro en pesos BBVA <strong>no tiene costos de apertura o
+                    mantenimiento
+                    ni tampoco de extracciones,</strong> siempre que estas sean en cajeros BBVA.
+            </td>
+            <td class="mercado-pago"> En Argentina, al abrir una cuenta en Mercado Pago, generalmente <strong>no hay
+                    gastos</strong>
+                asociados. Mercado Pago es una plataforma de pago y servicios financieros que suele ofrecer la apertura
+                de cuentas de manera gratuita </td>
+        </tr>
+        <tr>
+            <td>Resumen</td>
+            <td class="banco-publico"> Si te sobra dinero y sabes que no la vas a utilizar por nada del mundo, se
+                recomienda dejar ese dinero como un ahorro de emergencias, en donde se recomienda ponerlo en un plazo de
+                30 días por si el banco sube la tasa de interés al otro mes siguiente. Además, se recomienda cada vez
+                que se tiene que renovar el plazo fijo agregar un poco de dinero todos los meses para que cada vez tenga
+                más intereses y suba.</td>
+            <td class="banco-privado"> Se recomienda lo mismo que en el anterior
+            </td>
+            <td class="mercado-pago"> En éste se recomienda que si, es una persona que tiene muchos gastos en donde los
+                paga en efectivo, se recomienda dejar automaticamente una parte o todo su dinero de su salario en la app
+                de mercado pago, ya que, esta misma aplicación, lo que va hacer es generar todos los días su dinero
+                pero, con la ventaja de que lo va a poder utilizar cuando usted quiera, en caso de que tenga que pagar
+                algún servicio o suber o lo que fuese. Por lo tanto, éste utilicelo para poder invertir pero, también para usarlo</td>
+        </tr>
+    </table>
+
+</body>
+
+</html>
